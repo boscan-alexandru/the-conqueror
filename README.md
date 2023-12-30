@@ -4,4 +4,4 @@
 
 ## Online hosted version
 
-you can access this app [demo link](https://conqueror.boscan-alexandru.dev)
+you can access this app [demo link](https://conqueror.influendoo.com/index.html)
