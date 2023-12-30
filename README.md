@@ -1,6 +1,6 @@
 # the-conqueror
 
-![](https://github.com/boscan-alexandru/the-conqueror/app_preview_video.gif)
+![](https://github.com/boscan-alexandru/the-conqueror/blob/main/app_preview_video.gif)
 
 ## Online hosted version
 
