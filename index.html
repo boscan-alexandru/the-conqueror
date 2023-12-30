@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/assets/images/icon.png" sizes="32x32" />
+    <title>The Conqueror - Build your own bundle</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="promoted-challenge">
+        THE LORD OF THE RINGS Virtual Challenges are HERE!
+      </div>
+      <nav class="navbar">
+        <div class="container">
+          <a href="/index.html">
+            <img
+              class="logo desktop-logo"
+              src="/assets/images/logo.svg"
+              alt=""
+            />
+            <img
+              class="logo mobile-logo"
+              src="/assets/images/mobile_logo.svg"
+              alt=""
+            />
+          </a>
+          <div class="navbar-links flex items-center">
+            <select class="mobile-hidden dropdown-link" name="cars" id="cars">
+              <option value="volvo">Challenges</option>
+              <option value="saab">Saab</option>
+              <option value="mercedes">Mercedes</option>
+              <option value="audi">Audi</option>
+            </select>
+            <select class="mobile-hidden dropdown-link" name="cars" id="cars">
+              <option value="volvo">LOTR</option>
+              <option value="saab">Saab</option>
+              <option value="mercedes">Mercedes</option>
+              <option value="audi">Audi</option>
+            </select>
+            <select class="mobile-hidden dropdown-link" name="cars" id="cars">
+              <option value="volvo">Merch</option>
+              <option value="saab">Saab</option>
+              <option value="mercedes">Mercedes</option>
+              <option value="audi">Audi</option>
+            </select>
+            <select class="mobile-hidden dropdown-link" name="cars" id="cars">
+              <option value="volvo">More</option>
+              <option value="saab">Saab</option>
+              <option value="mercedes">Mercedes</option>
+              <option value="audi">Audi</option>
+            </select>
+            <a class="mobile-hidden link" href="">Corporate</a>
+            <a class="mobile-hidden link" href="">Shop</a>
+            <a class="link relative" href="/cart.html">
+              <div class="absolute cart_count" id="cart_total_items"></div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="19"
+                height="19"
+                fill="white"
+              >
+                <use xlink:href="assets/images/icons.svg#cart"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="first-content container grid gap-2">
+      <h1 class="title padding-y-80">All challenges</h1>
+
+      <div class="flex justify-end">
+        <div class="select_container flex gap-1 items-center">
+          <label for="filters">Sort by:</label>
+          <select class="dropdown min-width-200px" name="filters" id="filters">
+            <option value="volvo">Popular</option>
+            <option value="volvo">Distance (shortest)</option>
+            <option value="saab">Distance (longest)</option>
+            <option value="mercedes">Release date</option>
+          </select>
+        </div>
+      </div>
+      <div
+        id="challenges"
+        class="grid grid-cols-5 row-gap-5 gap-2 padding-b-40"
+      ></div>
+    </div>
+    <div class="newsletter_bg">
+      <div class="container-2 flex justify-center w-full items-center gap-2">
+        <p class="text-white font-18">
+          Get notified when we release a new challenge ->
+        </p>
+        <input
+          class="newsletter_email"
+          type="email"
+          name="newsletter_email"
+          placeholder="Your email address"
+          id=""
+        />
+        <button class="btn submit_newsletter_btn">Submit</button>
+      </div>
+    </div>
+    <footer class="footer_bg w-full">
+      <div class="container">
+        <div class="grid grid-cols-4 row-gap-5 gap-2 text-white padding-b-40">
+          <div>
+            <img src="/assets/images/logo_white.svg" alt="" />
+          </div>
+          <div class="footer_collumn">
+            <h3>ABOUT</h3>
+            <ul class="p-0 m-0">
+              <li>About Us</li>
+              <li>Careers</li>
+              <li>Our Causes</li>
+              <li>Blog</li>
+              <li>Media</li>
+              <li>Support Center</li>
+              <li><img src="/assets/images/socials.svg" alt="" /></li>
+            </ul>
+          </div>
+          <div class="footer_collumn">
+            <h3>THE CONQUEROR OFFERINGS</h3>
+            <ul class="p-0 m-0">
+              <li>Corporate Wellness</li>
+              <li>My Virtual Mission</li>
+              <li>The Conqueror Adventures</li>
+              <li>Virtual Challenges</li>
+              <li>Virtual Walking</li>
+              <li>Virtual Race</li>
+              <li>Virtual Running</li>
+            </ul>
+          </div>
+          <div class="footer_collumn grid gap-2">
+            <div class="mb-10">
+              <h3>PRIVACY NOTICE</h3>
+              <p class="p-0 m-0">
+                To read our privacy notice including our GDPR policy, please
+                click here.
+              </p>
+            </div>
+            <div class="mb-10">
+              <h3>TERMS OF SERVICE</h3>
+              <p class="p-0 m-0">To read our terms of service click here</p>
+            </div>
+            <div>
+              <h3>DOWNLOAD THE APP</h3>
+              <p class="p-0 m-0 flex gap-1">
+                <img src="/assets/images/gp.svg" alt="" />
+                <img src="/assets/images/as.svg" alt="" />
+              </p>
+            </div>
+          </div>
+        </div>
+        <hr class="color-gray mb-20" />
+        <p class="text-center text-white mb-20">
+          © ACTIONARY LIMITED ALL RIGHTS RESERVED
+        </p>
+        <p class="font-12 text-gray mb-20">
+          THE CONQUEROR and VIRTUAL CHALLENGES are a Trademark of Actionary. THE
+          CONQUEROR Trademark is registered in the US, UK, AU and EU. VIRTUAL
+          CHALLENGES Trademark is registered in the EU.
+        </p>
+      </div>
+    </footer>
+    <script type="module" src="assets/js/main.js"></script>
+  </body>
+</html>
